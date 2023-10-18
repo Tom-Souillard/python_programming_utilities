@@ -9,6 +9,12 @@ Ce dépôt contient une collection d'utilitaires et de scripts Python conçus po
 
 2. **CSV to JSON Converter** (`csv_to_json_converter.py`): 
    - Un utilitaire pour convertir des fichiers CSV en format JSON.
+  
+3. **Log Parser** (`log_parser.py`)
+   - Un script pour analyser des fichiers de log et générer des statistiques ou des alertes. Il prend en charge divers formats de log et permet à l'utilisateur de spécifier le type d'informations à extraire.
+
+4. **Batch Renamer** (`batch_renamer.py`)
+   - Un script pour renommer en masse des fichiers dans un dossier selon un certain modèle. Il prend en charge divers types de fichiers et permet à l'utilisateur de prévisualiser les changements avant de les appliquer.
 
 ## Utilisation
 
