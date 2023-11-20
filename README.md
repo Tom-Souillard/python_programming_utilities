@@ -16,6 +16,9 @@ Ce dépôt contient une collection d'utilitaires et de scripts Python conçus po
 4. **Batch Renamer** (`batch_renamer.py`)
    - Un script pour renommer en masse des fichiers dans un dossier selon un certain modèle. Il prend en charge divers types de fichiers et permet à l'utilisateur de prévisualiser les changements avant de les appliquer.
 
+5. **PDF to MP3 Converter** (`convert_pdf_to_mp3.py`)
+   - Un script pour convertir des fichiers PDF en fichiers audio MP3. Il lit le texte des fichiers PDF et utilise une synthèse vocale pour créer un fichier audio MP3 correspondant. Pour exécuter ce script, vous devez installer les dépendances pyttsx3 et PyPDF2. Vous pouvez le faire en exécutant la commande suivante dans votre environnement Python : 'pip install pyttsx3 PyPDF2'
+
 ## Utilisation
 
 Chaque script est accompagné de commentaires détaillés expliquant son fonctionnement. Pour utiliser un script, naviguez simplement vers son emplacement et exécutez-le avec Python.
