@@ -31,8 +31,8 @@ def organize_files_by_type():
                     break
 
             if dossier_cible:
-                if not os.path.exists(dossier_cible):
-                    os.mkdir(dossier_cible)
+                if not os.path.exists(categorie):
+                    os.mkdir(categorie)
                 shutil.move(fichier, os.path.join(dossier_cible, fichier))
 
 def main():
